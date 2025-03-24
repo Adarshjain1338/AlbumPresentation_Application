@@ -6,9 +6,9 @@ import { Button } from "./button";
 
 export default function Navbar() {
   return (
-    <nav className="w-full fixed top-0 left-0 flex items-center justify-between px-2 py-2 shadow-sm">
+    <nav className="w-full fixed flex items-center justify-between px-2 py-1 shadow-sm bg-white/20 shadow-lg ring-1 ring-black/5">
       {/* Left: Project Name */}
-      <h1 className="text-lg font-semibold">Project Name</h1>
+      <h1 className="text-lg font-semibold">Album Vault</h1>
 
       {/* Right: Profile and Logout */}
       <div className="flex items-center gap-4">
